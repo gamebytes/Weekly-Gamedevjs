@@ -11,7 +11,8 @@
 
 body {
   background: #fff;
-  font: 14px normal Tahoma;
+  font: 16px Arial;
+  line-height: 24px;
   text-align: center;
   color: #111;
 }
@@ -39,6 +40,7 @@ a:hover {
 header {
 	background: #add6f2 url('img/bg.jpg') center top no-repeat;
 	height: 450px;
+	margin-bottom: 20px;
 }
 
 h1,
@@ -128,7 +130,7 @@ h4 a:hover {
 }
 
 section {
-	width: 960px;
+	/*width: 960px;*/
 	background: #fff;
 	margin: 0 auto;
 	clear: both;
@@ -136,20 +138,8 @@ section {
 }
 
 article {
-	width: 600px;
+	/*width*/: 600px;
 	float: left;
-}
-
-aside {
-	width: 330px;
-	float: left;
-	padding-left: 30px;
-	font-size: 16px;
-	line-height: 22px;
-}
-
-aside p {
-	text-align: right;
 }
 
 .gamedevList {
@@ -245,3 +235,80 @@ aside p {
 	padding: 0 5px;
 	text-align: left;
 }
+
+#newsletter-form {
+	padding-top: 30px;
+	/*margin: 30px 0;*/
+	/*background: red;*/
+	margin-bottom: 50px;
+}
+
+#newsletter-archive {
+	margin: 30px 0 20px;
+	text-align: center;
+}
+
+#mc_embed_signup {
+	/*height: 50px;*/
+	/*margin: 50px 0 20px 0;*/
+	/*padding: 10px 0 0 0;*/
+	background: #fff;
+	/*clear: left;*/
+	font: 16px Helvetica, Arial, sans-serif;
+	/*border-top: 1px solid #ADD6F2;*/
+	/*border-bottom: 1px solid #ADD6F2;*/
+	text-align: center;
+}
+
+#mc-embedded-subscribe-form {
+	line-height: 50px;
+	height: 50px;
+	/*background: #ccc;*/
+}
+
+#mc_embed_signup label {
+	display: block;
+	font-weight: bold;
+}
+
+#mce-EMAIL {
+	border: 2px solid #ADD6F2;
+	padding: 5px 10px;
+	border-radius: 5px;
+	/*line-height: 30px;*/
+	/*height: 30px;*/
+	font-size: 20px;
+	line-height: 30px;
+	color: #576E7E;
+	background: #fcfcfc;
+	/*background: -moz-linear-gradient(center top, #CDF6F2, #ADD6F2);*/
+}
+
+#mc-embedded-subscribe {
+	font-family: "Graduate", Tahoma;
+	font-size: 20px;
+	line-height: 30px;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 5px 10px;
+	background: #ADD6F2;
+	border: 1px solid #576E7E;
+	color: #000;
+	/*line-height: 30px;*/
+	/*height: 30px;*/
+	background: -moz-linear-gradient(center top, #CDF6F2, #ADD6F2);
+	/*box-shadow: 3px 3px 6px #ADD6F2;*/
+}
+
+#mc-embedded-subscribe:hover {
+	/*background: -moz-linear-gradient(center top, #ADD6F2, #CDF6F2);*/
+}
+
+#hidden-input {
+	position: absolute;
+	left: -5000px;
+}
+
+.display_archive {}
+.campaign {}
+
